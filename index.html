@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Jelita Sugih Arti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="photo">
+            <img src="img/aku.jpg" alt="Foto Jeje">
+        </div>
+        <h1>Jelita Sugih Arti</h1>
+        <p><strong>Mahasiswa Aktif</strong></p>
+        
+        <div class="flashcards">
+            <div class="flashcard" onclick="toggleCard(this)">
+                <h2>Data Diri</h2>
+                <div class="card-content">
+                    <p><strong>Lahir di:</strong> Banyumas, 4 Agustus 2005</p>
+                    <p><strong>Domisili:</strong> Desan Pasinggangan, Kecamatan Banyumas, Banyumas</p>
+                    <p><strong>Email:</strong> jelitalita05@gmail.com.com</p>
+                    <p><strong>Telepon:</strong> 083162210084</p>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="toggleCard(this)">
+                <h2>Riwayat Pendidikan</h2>
+                <div class="card-content">
+                    <p><strong>SMK:</strong> SMK Negeri 1 Banyumas (2020-2023)</p>
+                    <p><strong>Saat ini:</strong> Mahasiswa STMIK Widya Utama (2023 - sekarang)</p>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="toggleCard(this)">
+                <h2>Minat dan Hobi</h2>
+                <div class="card-content">
+                    <p>Scrapbook, Desain Grafis, Memasak</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Profil Jelita. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        function toggleCard(card) {
+            card.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
